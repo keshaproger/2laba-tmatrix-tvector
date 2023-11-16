@@ -71,7 +71,6 @@ public:
 template <class T>
 TVector<T>::TVector(int s, int si)
 {
-	//Новый код
 	if ( s < 0 || (s > MAX_VECTOR_SIZE) || (si < 0))
 	{
 		throw "Проблемы с размером";
